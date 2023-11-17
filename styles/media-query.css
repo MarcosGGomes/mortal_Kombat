@@ -1,0 +1,297 @@
+/* TABLETE */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+  
+    .inicio .text {
+        padding-top: 100px;
+    }
+
+    .inicio .text p {
+        font-size: 20px;
+    }
+
+    /* section 2 */
+
+    .sobre article img {
+        width: 30%;
+    }
+
+    .sobre h2 {
+        margin-bottom: 20px;
+    }
+    
+    
+    #imgboon {
+        width: 50%;
+        margin-top: 20px;
+        border-radius: 200px;
+    }
+
+    /* section 3 */
+
+    
+    .personagens h2 {
+        text-align: center;
+    }
+
+    .personagens {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+    }
+
+    .personagens .chars {
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+
+    }
+
+    .char1, .char2, .char3, .char4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        border-radius: 50px;
+        padding: 10px;
+        border: 1px solid black;
+        box-shadow: 2px 2px 2px black;
+        margin-left: 10px;
+        height: 700px;
+    }
+
+    footer img {
+        height: 110px;
+        width: 300px;
+    }
+
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    header nav a {
+        text-shadow: 2px 1px 1px black;
+    }
+
+    header nav li a:hover {
+        border-bottom: 2px solid yellow;
+        transition: 0.0s ease-out;
+    }
+
+    .inicio {
+        background-image: url("../img/backgroud_normal.jpg");
+    }
+
+    .inicio .text h1 {
+        font-size: 56px;
+    }
+
+    .inicio .text p {
+        font-size: 19px;
+    }
+
+    .inicio .text {
+        font-size: 20px;
+    }
+
+    .inicio img {
+        width: 20%;
+        height: 20%;
+    
+    }
+
+    /* section 2 */
+
+    .sobre {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 700px;
+    }
+
+    #imgboon {
+        width: 100%;
+        margin-top: 20px;
+        border-radius: 200px;
+    
+    }
+
+    .sobre img {
+        width: 100%;
+    
+    }
+
+    .sobre article h2 {
+        margin-bottom: 20px;
+    }
+
+    /* section 3 */
+
+    
+    .personagens h2 {
+        text-align: center;
+        font-size: 30px;
+        text-shadow: 1px 1px 1px black;
+    }
+
+    .personagens {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+    }
+
+    .personagens .chars {
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+
+    }
+
+    .char1, .char2, .char3, .char4 {
+        margin-top: 20px;
+        border-radius: 50px;
+        padding: 10px;
+        border: 1px solid black;
+        box-shadow: 2px 2px 2px black;
+        margin-left: 10px;
+        height: 700px;
+    }
+
+    footer img {
+        height: 110px;
+        width: 300px;
+    }
+
+
+
+  
+}
+
+@media screen and (min-width:1200px) {
+
+    header nav a {
+        text-shadow: 2px 1px 1px black;
+    }
+
+    header nav li a:hover {
+        border-bottom: 2px solid yellow;
+        transition: 0.0s ease-out;
+    }
+
+    .inicio {
+        background-image: url("../img/backgroud_normal.jpg");
+    }
+
+    .inicio .text h1 {
+        font-size: 56px;
+    }
+
+    .inicio .text p {
+        font-size: 19px;
+    }
+
+    .inicio .text {
+        font-size: 20px;
+    }
+
+    .inicio img {
+        width: 20%;
+        height: 20%;
+    
+    }
+
+    /* section 2 */
+
+    .sobre {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 700px;
+    }
+
+    #imgboon {
+        width: 50%;
+        margin-top: 20px;
+        border-radius: 200px;
+    
+    }
+
+    .sobre img {
+        width: 75%;
+    
+    }
+
+    .sobre article h2 {
+        margin-bottom: 20px;
+    }
+
+    /* section 3 */
+
+    
+    .personagens h2 {
+        text-align: center;
+        font-size: 30px;
+        text-shadow: 1px 1px 1px black;
+    }
+
+    .personagens {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+    }
+
+    .personagens .chars {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+
+    }
+
+    .char1, .char2, .char3, .char4 {
+        margin-top: 20px;
+        border-radius: 50px;
+        padding: 10px;
+        border: 1px solid black;
+        box-shadow: 2px 2px 2px black;
+        margin-left: 30px;
+        height: 700px;
+        
+    }
+
+    footer img {
+        height: 110px;
+        width: 300px;
+    }
+
+   
+
+    .inicio {
+        background-image: url("../img/back_big.jpg");
+    }
+}
+
+    
+   
